@@ -10,3 +10,11 @@ for i in range(n):
     students.append(student)
 
 print(students)
+
+for student in students:
+    if student["marks"] > 90:
+        print("Above 90:", student["name"])
+    elif student["marks"] > 80:
+        print("Above 80:", student["name"])
+    elif student["marks"] > 70:
+        print("Above 70:", student["name"])

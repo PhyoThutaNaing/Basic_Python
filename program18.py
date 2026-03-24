@@ -6,9 +6,26 @@ for i in range(len(password)):
     
     ch = password[i]
     
+    
 
 
-if len(password) >= 8 and has_upper and has_lower and has_digit and has_special:
-    print("Strong Password ✅")
+if len(password) >= 8 and (ch >= 'A' and ch <= 'Z') and (ch >= 'a' and ch <= 'z') and has_special:
+    print("Strong Password")
+
+
+
+"""else:
+    print("Weak Password")
+
+
+if ch >= 'A' and ch <= 'Z':
+    print("Uppercase letter")
 else:
-    print("Weak Password ❌")
+    print("Not uppercase")
+
+
+
+if ch >= 'a' and ch <= 'z':
+    print("Lowercase letter")
+else:
+    print("Not lowercase")"""

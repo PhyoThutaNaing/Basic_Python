@@ -1,0 +1,2 @@
+from test_sum import add
+print(add(2,3))
